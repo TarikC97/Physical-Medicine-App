@@ -1,0 +1,551 @@
+.log-in{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(Slikee/8.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.log-in a{
+    text-decoration: none;
+    font-style:italic;
+    font-size: large;
+    color: black;
+    font-size: 25px;
+}
+.log-in input{
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.log-in form{
+    font-size: 25px;
+}
+.log-in button{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    transition: .5s ;
+}
+.log-in button:hover{
+    background-color: rgb(135, 222, 171);
+}
+.sign-up input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.sign-up-dodaj input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+select{
+    font-size: 15px;
+}
+
+form{
+    font-size: 20px;
+}
+.sign-up{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Slikee/3.jpg);
+    background-size:cover;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-up-dodaj{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-up p{
+    color: white;
+    font-size: 20px;
+}
+.sign-up-dodaj p{
+    color: white;
+    font-size: 20px;
+}
+.sign-up a{
+    padding-top: 150px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: x-large;
+    color: white;
+}
+.sign-up-dodaj a{
+    padding-top: 150px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: x-large;
+    color: white;
+}
+.sign-up button{
+    background-color: rgb(74, 184, 138);
+    color: white;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 190px;
+    height: 35px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.sign-up-dodaj button{
+    background-color: rgb(74, 184, 138);
+    color: white;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 190px;
+    height: 35px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.sign-up button:hover{
+    height: 50px;
+}
+.main{
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-image: url(Slikee/8.jpg);
+    background-size:cover;
+}
+.mainA{
+    background-color: white;        
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+}
+.sideleft{
+    height: 100vh;
+    width: 20%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+.sideleft a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+.kontrola{
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 95%;
+    height: 7vh;
+    padding: 5px;
+}
+.kartondiv {
+    width: 80%;
+    height: 50vh;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.kartondiv h1{
+    text-align: center;
+}
+.karton{
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-top-color: black;
+    width: 90%;
+    height: 10vh;
+    padding: 5px;
+    margin-top: 20px;
+}
+.mojeporukediv {
+    width: 80%;
+    height: 50vh;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.mojeporukediv h1{
+    text-align: center;
+}
+.mojeporuke{
+    font-size: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-top-color: black;
+    width: 22%;
+    height: 15vh;
+    padding: 5px;
+    margin-top: 20px;
+}
+.mojeporuke h2{
+ text-align: center;
+ font-size: 18px;
+}
+.mojeporuke p {
+    font-size: 17px;
+    text-align: left;
+}
+.mainP{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+.fizijatriP{
+    background-color: white;        
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fizijatriF{      
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btnnaslov{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.dodajbutton{
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+}
+.dodajbutton:hover{
+    background:transparent;
+}
+.kocka{
+    width: 35vh;
+    height: 45vh;
+    border: 2px solid black;
+    background-color: white;
+    margin: 7px;
+    font-size: 18px;
+    padding: 10px;
+}
+.btn1 {
+    font-size: 20px;
+}
+.dodaj{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Slikee/8.jpg);
+    background-size:cover;
+}
+.uslugeMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.uslugeMainP{
+    width: 80%;
+    height: 100v;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.uslugeCentar{
+    margin-right: 20px;
+    width: 98%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 15px;
+}
+.uslugeLevo{
+    display: flex;
+    width: 30%;
+    height: 40vh;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.uslugeDesno{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    height: 36vh;
+    align-items: right;
+    justify-content: right;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    font-size: 22px;
+    justify-content: space-around;
+    text-align: center;
+}
+.uslugeLevo img{
+    width: 450px;
+    height: 260px;
+}
+.uslugeA{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.uslugeAdmin{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    background: aquamarine;
+}
+.radnastranaF{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+.kartonMain{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kartonKocka{
+    height: 65vh;
+    width: 40%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+.kartonKocka p{
+    font-size: 20px;
+    font-style: bold;
+}
+.kartonKocka form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tabela{
+    width:100%;
+    margin-left:10px;
+}
+table, th, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color:rgb(35, 7, 161);
+    color:white;
+    height:80px;
+    width:150px;
+    padding-left:25px;
+    padding-right:25px;
+    text-align:center;
+}
+td{
+    height:50px;
+    width:150px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:center;
+}
+.btnu{
+    background: #239f85;
+}
+.btnd{
+    background: rgba(255, 0, 0, 0.84);
+}
+.btnd a{
+    text-decoration: none;
+    color: black;
+}
+.btnu a{
+    text-decoration: none;
+    color: black;
+}
+.h1d{
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.centar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+}
+.levi{
+    border-radius: 20px;
+    width: 30%;
+    height: 40vh;
+    background: aquamarine;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.levi button{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(12, 13, 16, 0.559);
+    color:black;
+    width: 100px;
+}
+.desni{
+    border-radius: 20px;
+    width: 30%;
+    height: 40vh;
+    background: aquamarine;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.desni button{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(12, 13, 16, 0.559);
+    color:black;
+    width: 100px;
+    margin-right: 40px;
+}
+.aboutMain{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: flex;
+    margin-top: 62px;
+}
+.aboutLevi{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background: #239f85;
+    background-image: url('Slikee/16.jpg');
+    background-size:cover ; 
+}
+.aboutDesni{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    font-size: 25px;
+    gap: 30px;
+    align-items: center;
+}
+.aboutDesni p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.vkey{
+    width: 100%;
+    height: 100%;
+    background-image: url(Slikee/8.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vform{
+    border-radius: 20px;
+    width: 45%;
+    background-color: #DFE4E0;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.vform input[type=text]{
+        width: 30%;
+        padding: 10px;
+        margin-top: 6px;
+        margin-bottom: 5px;
+}
+.vform input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    margin-top: 6px;
+    background-color: #7EC8E3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.vform input[type=submit]:hover{
+    background-color: #189AB4;
+    color: white;
+    transition: 0.5s;
+}
